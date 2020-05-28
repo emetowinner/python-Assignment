@@ -73,7 +73,8 @@ def main():
         elif checker == 2:
             view_customer_list()
         elif checker == 0:
-            print('Don\'t forget to delete the database befor running the script again or comment out line 15-20' )
+            print(
+                'Don\'t forget to delete the database befor running the script again or comment out line 15-20')
             break
         else:
             raise Exception(
